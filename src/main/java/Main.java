@@ -20,8 +20,8 @@ public class Main {
 //        newEmployee.identifyOldEmployee();
 //        newEmployee.identifyManagerEmployee();
 
-        House newHouse = new House("White","Colombo", 1000, "Yohan");
+        House newHouse = new House("White","Colombo", 1000, "Yohan", HouseType.ONE_STORY);
         newHouse.setOwnerName("Shenali");
-        System.out.println(newHouse.getHouseDetails().get(0));
+        System.out.println(newHouse.color);
     }
 }
