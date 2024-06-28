@@ -1,10 +1,12 @@
+package encapsulation;
+
 public class Tree {
 
     private double heightFt;
     private double trunkDiameter;
     private TreeType treeType;
 
-    Tree(double heightFt, double trunkDiameter, TreeType treeType){
+    public Tree(double heightFt, double trunkDiameter, TreeType treeType){
         this.heightFt = heightFt;
         this.trunkDiameter = trunkDiameter;
         this.treeType = treeType;

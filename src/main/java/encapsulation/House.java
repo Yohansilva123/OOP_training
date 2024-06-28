@@ -1,3 +1,5 @@
+package encapsulation;
+
 import java.util.List;
 
 public class House {
